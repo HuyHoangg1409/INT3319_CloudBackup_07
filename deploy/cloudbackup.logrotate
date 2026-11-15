@@ -1,0 +1,9 @@
+/var/backups/cloudbackup/backup.log /var/log/cloudbackup-cron.log /var/log/cloudbackup-heartbeat.log {
+    daily
+    rotate 7
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0600 root root
+}

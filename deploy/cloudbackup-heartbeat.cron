@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+* * * * * root /opt/cloudbackup/.venv/bin/python /opt/cloudbackup/src/heartbeat.py --config /etc/cloudbackup.json >> /var/log/cloudbackup-heartbeat.log 2>&1

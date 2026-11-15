@@ -1,0 +1,2 @@
+# Python 3.9+ on Amazon Linux 2023. Record exact EC2-resolved versions after install.
+boto3>=1.34,<2

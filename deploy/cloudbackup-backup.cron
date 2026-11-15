@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+*/5 * * * * root /opt/cloudbackup/.venv/bin/python /opt/cloudbackup/src/backup.py --config /etc/cloudbackup.json >> /var/log/cloudbackup-cron.log 2>&1

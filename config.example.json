@@ -1,0 +1,17 @@
+{
+  "database": "cloud_backup_demo",
+  "config_dir": "/opt/cloudbackup/demo-config",
+  "local_backup_dir": "/var/backups/cloudbackup",
+  "lock_file": "/var/lock/cloudbackup.lock",
+  "s3_bucket": "THAY_TEN_BUCKET",
+  "s3_prefix": "backups",
+  "aws_region": "ap-southeast-1",
+  "sns_topic_arn": "",
+  "project": "Nhom7",
+  "environment": "demo",
+  "namespace": "CloudBackup/Nhom7",
+  "command_timeout_seconds": 120,
+  "max_backup_bytes": 209715200,
+  "overdue_seconds": 900,
+  "update_state": true
+}

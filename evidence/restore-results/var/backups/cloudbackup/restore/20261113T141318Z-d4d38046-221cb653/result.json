@@ -1,0 +1,8 @@
+{
+  "run_id": "20261113T141318Z-d4d38046",
+  "utc": "2026-11-13T14:25:59+00:00",
+  "status": "RESTORE_PASS",
+  "database": "cloud_restore_362c9af833b74025",
+  "config_dir": "/var/backups/cloudbackup/restore/20261113T141318Z-d4d38046-221cb653/recovered/config",
+  "seconds": 0.537
+}
